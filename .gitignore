@@ -1,0 +1,5 @@
+.aws/
+*.env
+credentials*
+rclone.conf
+test.bin
