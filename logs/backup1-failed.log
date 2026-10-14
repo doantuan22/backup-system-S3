@@ -1,0 +1,23 @@
+2026/10/14 22:15:26 ERROR : docs/baocao.txt: corrupted on transfer: md5 hashes differ src(Local file system at //?/D:/backup-system-S3/testdata) "6f5b4ec31d47cdd3b54ad067a65aa1ba" vs dst(S3 bucket pcbackup-771764220929-us-east-1 path pc-tuan) "2235bb10adbe46bcc4c701b1a4b7da99"
+2026/10/14 22:15:26 INFO  : docs/baocao.txt: Removing failed copy
+2026/10/14 22:15:26 ERROR : docs/ghichu.txt: corrupted on transfer: md5 hashes differ src(Local file system at //?/D:/backup-system-S3/testdata) "4b63231f057b5c61ea62676fb227084e" vs dst(S3 bucket pcbackup-771764220929-us-east-1 path pc-tuan) "98c834534851fcb991c57d944d9e119d"
+2026/10/14 22:15:26 INFO  : docs/ghichu.txt: Removing failed copy
+2026/10/14 22:15:32 ERROR : photos/lon.bin: Failed to copy: multipart upload corrupted: Etag differ: expecting 5452e5568d20a60209babc69a7b95911-3 but got a8e47a3351917257cfab1bed7195ffb9-3
+2026/10/14 22:15:32 ERROR : Attempt 1/3 failed with 3 errors and: multipart upload corrupted: Etag differ: expecting 5452e5568d20a60209babc69a7b95911-3 but got a8e47a3351917257cfab1bed7195ffb9-3
+2026/10/14 22:15:32 ERROR : docs/baocao.txt: corrupted on transfer: md5 hashes differ src(Local file system at //?/D:/backup-system-S3/testdata) "6f5b4ec31d47cdd3b54ad067a65aa1ba" vs dst(S3 bucket pcbackup-771764220929-us-east-1 path pc-tuan) "1b07e5d4c8c0f2d603bbd193312fc88b"
+2026/10/14 22:15:32 INFO  : docs/baocao.txt: Removing failed copy
+2026/10/14 22:15:32 ERROR : docs/ghichu.txt: corrupted on transfer: md5 hashes differ src(Local file system at //?/D:/backup-system-S3/testdata) "4b63231f057b5c61ea62676fb227084e" vs dst(S3 bucket pcbackup-771764220929-us-east-1 path pc-tuan) "7472a332186ba96fce88332ea4902043"
+2026/10/14 22:15:32 INFO  : docs/ghichu.txt: Removing failed copy
+2026/10/14 22:15:33 ERROR : Attempt 2/3 failed with 2 errors and: corrupted on transfer: md5 hashes differ src(Local file system at //?/D:/backup-system-S3/testdata) "4b63231f057b5c61ea62676fb227084e" vs dst(S3 bucket pcbackup-771764220929-us-east-1 path pc-tuan) "7472a332186ba96fce88332ea4902043"
+2026/10/14 22:15:34 ERROR : docs/ghichu.txt: corrupted on transfer: md5 hashes differ src(Local file system at //?/D:/backup-system-S3/testdata) "4b63231f057b5c61ea62676fb227084e" vs dst(S3 bucket pcbackup-771764220929-us-east-1 path pc-tuan) "b80255376c525d0736eb7fb0bb3b4011"
+2026/10/14 22:15:34 INFO  : docs/ghichu.txt: Removing failed copy
+2026/10/14 22:15:34 ERROR : docs/baocao.txt: corrupted on transfer: md5 hashes differ src(Local file system at //?/D:/backup-system-S3/testdata) "6f5b4ec31d47cdd3b54ad067a65aa1ba" vs dst(S3 bucket pcbackup-771764220929-us-east-1 path pc-tuan) "4291c73eb288f54a7d6566a515c570e6"
+2026/10/14 22:15:34 INFO  : docs/baocao.txt: Removing failed copy
+2026/10/14 22:15:34 ERROR : Attempt 3/3 failed with 2 errors and: corrupted on transfer: md5 hashes differ src(Local file system at //?/D:/backup-system-S3/testdata) "6f5b4ec31d47cdd3b54ad067a65aa1ba" vs dst(S3 bucket pcbackup-771764220929-us-east-1 path pc-tuan) "4291c73eb288f54a7d6566a515c570e6"
+2026/10/14 22:15:34 INFO  : 
+Transferred:   	   20.000 MiB / 20.000 MiB, 100%, 3.333 MiB/s, ETA 0s
+Errors:                 2 (retrying may help)
+Checks:                 2 / 2, 100%, Listed 19
+Elapsed time:         8.5s
+
+2026/10/14 22:15:34 NOTICE: Failed to copy with 2 errors: last error was: corrupted on transfer: md5 hashes differ src(Local file system at //?/D:/backup-system-S3/testdata) "6f5b4ec31d47cdd3b54ad067a65aa1ba" vs dst(S3 bucket pcbackup-771764220929-us-east-1 path pc-tuan) "4291c73eb288f54a7d6566a515c570e6"
