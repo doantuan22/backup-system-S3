@@ -3,3 +3,6 @@
 credentials*
 rclone.conf
 test.bin
+*.log
+restored/
+testdata/
