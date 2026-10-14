@@ -1,0 +1,28 @@
+{
+  "Rules": [
+    {
+      "ID": "R1-noncurrent-to-glacier",
+      "Status": "Enabled",
+      "Filter": {"Prefix": ""},
+      "NoncurrentVersionTransitions": [{"NoncurrentDays": 30, "StorageClass": "GLACIER"}]
+    },
+    {
+      "ID": "R2-expire-old-versions",
+      "Status": "Enabled",
+      "Filter": {"Prefix": ""},
+      "NoncurrentVersionExpiration": {"NoncurrentDays": 365}
+    },
+    {
+      "ID": "R3-remove-expired-delete-markers",
+      "Status": "Enabled",
+      "Filter": {"Prefix": ""},
+      "Expiration": {"ExpiredObjectDeleteMarker": true}
+    },
+    {
+      "ID": "R4-abort-incomplete-multipart",
+      "Status": "Enabled",
+      "Filter": {"Prefix": ""},
+      "AbortIncompleteMultipartUpload": {"DaysAfterInitiation": 7}
+    }
+  ]
+}

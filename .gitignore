@@ -3,3 +3,4 @@
 credentials*
 rclone.conf
 test.bin
+pcbackup.env
