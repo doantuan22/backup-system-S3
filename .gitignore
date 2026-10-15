@@ -6,3 +6,8 @@ test.bin
 *.log
 restored/
 testdata/
+logs/
+*.log
+config/pcbackup.env
+*.lock
+
